@@ -30,7 +30,7 @@ MonoBehaviour:
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
-    m_Value: 2.31
+    m_Value: 2.2
   aperture:
     m_OverrideState: 0
     m_Value: 5.6
@@ -60,8 +60,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   mode:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 2
 --- !u!114 &-3379909109677807489
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -77,31 +77,31 @@ MonoBehaviour:
   active: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.72
+    m_Value: 0.87
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0.768
   clamp:
     m_OverrideState: 1
-    m_Value: 65472
+    m_Value: 65436.44
   tint:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   skipIterations:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   dirtTexture:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {fileID: 0}
     dimension: 1
   dirtIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -116,10 +116,10 @@ MonoBehaviour:
   m_Name: Global Volume Profile
   m_EditorClassIdentifier: 
   components:
+  - {fileID: -6401605068514649185}
   - {fileID: -3379909109677807489}
   - {fileID: 8141066856543798539}
   - {fileID: -6572862272694464033}
-  - {fileID: -6401605068514649185}
 --- !u!114 &8141066856543798539
 MonoBehaviour:
   m_ObjectHideFlags: 3
