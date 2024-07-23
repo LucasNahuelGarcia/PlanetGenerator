@@ -3,6 +3,7 @@ This project is a procedural planet generator built using Perlin noise and march
 
 # Demo
 Check out the demo of my Planet Generator in action:
+
 [![Video showing the Planet Generator](https://img.youtube.com/vi/T0yJ5YOxNbA/0.jpg)](https://www.youtube.com/watch?v=T0yJ5YOxNbA)
 
 # Dependencies
